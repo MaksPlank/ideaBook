@@ -21,14 +21,14 @@
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="9RG-4d-wwg">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="150" id="L82-bZ-W4O"/>
+                                        <constraint firstAttribute="height" constant="150" identifier="heightInit" id="L82-bZ-W4O"/>
                                     </constraints>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="9RG-4d-wwg" firstAttribute="leading" secondItem="7O7-vi-uRI" secondAttribute="leading" id="fT8-sB-hkY"/>
-                                <constraint firstAttribute="bottom" secondItem="9RG-4d-wwg" secondAttribute="bottom" id="fmE-Xd-lal"/>
+                                <constraint firstAttribute="bottom" secondItem="9RG-4d-wwg" secondAttribute="bottom" identifier="bottomInit" id="fmE-Xd-lal"/>
                                 <constraint firstAttribute="trailing" secondItem="9RG-4d-wwg" secondAttribute="trailing" id="mOc-pA-uPw"/>
                             </constraints>
                         </view>
@@ -43,7 +43,6 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="custHeight" destination="L82-bZ-W4O" id="lAh-b9-a4R"/>
                             <outlet property="dataSource" destination="2KF-3L-696" id="tZW-wP-unU"/>
                             <outlet property="delegate" destination="2KF-3L-696" id="j6D-re-xaL"/>
                         </connections>
