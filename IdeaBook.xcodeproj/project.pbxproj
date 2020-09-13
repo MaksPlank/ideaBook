@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				A952D597250D064C00E622E5 /* TableVC.swift */,
+				A952D599250D0FBA00E622E5 /* TableView.swift */,
 				A952D57F250D032C00E622E5 /* IdeaBook */,
 				A952D57E250D032C00E622E5 /* Products */,
 			);
@@ -61,7 +62,6 @@
 		A952D57F250D032C00E622E5 /* IdeaBook */ = {
 			isa = PBXGroup;
 			children = (
-				A952D599250D0FBA00E622E5 /* TableView.swift */,
 				A952D580250D032C00E622E5 /* AppDelegate.swift */,
 				A952D582250D032C00E622E5 /* SceneDelegate.swift */,
 				A952D586250D032C00E622E5 /* Main.storyboard */,
